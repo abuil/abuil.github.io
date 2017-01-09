@@ -8,23 +8,3 @@ body {
   width: 960px;
   margin: 20px auto 20px auto;
 }
-h1 {
-  color: blue;
-  font-weight: 600;
-}
-
-#status {
-  width: 400px;
-  margin: 20px auto 20px auto;
-
-h4 {
-  color: purple;
-}
-#summary {
-  color: green;
-}
-.skills-and-hobbies {
-  color: orange;
-}
-
-}
