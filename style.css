@@ -1,10 +1,26 @@
-body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background-image: url(orig.jpg);
-  background-repeat: repeat;
+body { background-color: #0A0A2A;
 }
-#wrapper {
-  width: 960px;
-  margin: 20px auto 20px auto;
+.index_image {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image:url('Huesca.jpg');
+}
+.index_image h1{color: white;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.index_image .container{
+  position: relative;
+          top:50%
+          transform: translateY(-50%);
+}
+.index_image .btn-primary {background-color: #0B0B61;
+    border-color: #fff;
+  }
+.col-sm-4 h4{color:white; font-family: 'Bungee Shade', cursive; font-size: 32px;
+}
+.col-sm-4 .btn {font-size: 32px;
+}
+.col-sm-4 p{color: white;
 }
