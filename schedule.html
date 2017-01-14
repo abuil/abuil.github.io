@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SD HUESCA</title>
+  <title>SD HUESCA - Schedule</title>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -30,8 +30,8 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"> Home</i> <span class="sr-only">(current)</span></a></li>
-          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+          <li class="active"><a href="#">Schedule<span class="sr-only">(current)</span></a></li>
           <li><a href="team.html">Team</a></li>
         </ul>
         <form class="navbar-form navbar-left">
@@ -45,23 +45,58 @@
     </div><!-- /.container-fluid -->
   </nav>
 
+  <div class="page-header">
+    <h1>SD HUESCA</h1>
+  </div>
 
   <div class="container">
-    <div class="index_image">
-      <div class="container">
-        <h1>SD HUESCA</h1>
-        <h3><a href="team.html" class="btn btn-primary">Do you want to be the player number 12?</a></h3>
-      </div>
-    </div>
     <div class="row">
-      <div class="col-sm-6">
-        <h4><a href="schedule.html" class="btn btn-primary">Schedule</a></h4>
-        <p>Do not miss the next match!</p>
+      <div class="col-sm-12">
+        <h1>Schedule</h1>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Hour</th>
+              <th>Game</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">15-01-2017</th>
+              <td>18:00</td>
+              <td>Huesca - Levante</td>
+            </tr>
+
+            <tr>
+              <th scope="row">21-01-2017</th>
+              <td>18:00</td>
+              <td>Huesca - Alcorcón</td>
+            </tr>
+
+            <tr>
+              <th scope="row">28-01-2017</th>
+              <td>18:00</td>
+              <td>Nàstic - Huesca</td>
+            </tr>
+
+            <tr>
+              <th scope="row">04-02-2017</th>
+              <td>20:00</td>
+              <td>Huesca - Zaragoza</td>
+            </tr>
+
+            <tr>
+              <th scope="row">12-02-2017</th>
+              <td>12:00</td>
+              <td>Córdoba- Huesca</td>
+            </tr>
+
+          </tbody>
+      </table>
+
       </div>
-      <div class="col-sm-6">
-        <h4><a href="team.html" class="btn btn-primary">Team</a></h4>
-        <p>Know our warriors!</p>
-      </div>
+
     </div>
   </div>
 </body>

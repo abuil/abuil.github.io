@@ -18,9 +18,39 @@ body { background-color: #0A0A2A;
 .index_image .btn-primary {background-color: #0B0B61;
     border-color: #fff;
   }
-.col-sm-4 h4{color:white; font-family: 'Bungee Shade', cursive; font-size: 32px;
+.col-sm-6 h4{color:white; font-family: 'Bungee Shade', cursive; font-size: 32px;
 }
-.col-sm-4 .btn {font-size: 32px;
+.col-sm-6 .btn {font-size: 32px;
 }
-.col-sm-4 p{color: white;
+.col-sm-6 p{color: white;
+}
+
+.page-header{
+  background-image:url('img/foto_header.jpeg');
+  background-size:     cover;
+  margin: -20px 0 20px;
+}
+
+.page-header h1{color: white;
+  font-family: 'Bungee Shade', cursive;
+  text-align: right;
+}
+
+.col-sm-9 h1{color: white;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.col-sm-3 h1{color: white;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.col-sm-12 h1{color: white;
+  font-family: 'Bungee Shade', cursive;
+}
+.table{
+  color: white;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   color: black;
 }
