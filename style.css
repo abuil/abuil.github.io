@@ -1,21 +1,21 @@
 body { background-color: #0A0A2A;
 }
-.index_image {
+#index_image {
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image:url('Huesca.jpg');
 }
-.index_image h1{color: white;
+#index_image h1{color: white;
   font-family: 'Bungee Shade', cursive;
 }
 
-.index_image .container{
+#index_image .container{
   position: relative;
           top:50%
           transform: translateY(-50%);
 }
-.index_image .btn-primary {background-color: #0B0B61;
+#index_image .btn-primary {background-color: #0B0B61;
     border-color: #fff;
   }
 .col-sm-6 h4{color:white; font-family: 'Bungee Shade', cursive; font-size: 32px;
@@ -24,7 +24,8 @@ body { background-color: #0A0A2A;
 }
 .col-sm-6 p{color: white;
 }
-
+.col-sm-12 p{color: white;
+}
 .page-header{
   background-image:url('img/foto_header.jpeg');
   background-size:     cover;
@@ -38,6 +39,8 @@ body { background-color: #0A0A2A;
 
 .col-sm-9 h1{color: white;
   font-family: 'Bungee Shade', cursive;
+}
+.col-sm-9 h2{color: white;
 }
 
 .col-sm-3 h1{color: white;
